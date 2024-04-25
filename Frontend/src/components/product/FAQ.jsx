@@ -7,8 +7,8 @@ import { MdExpandMore } from "react-icons/md";
 
 export default function FAQ({ faqs }) {
   return (
-    <div className="flex flex-col gap-4 w-full lg:w-[95%] border-t-2 py-5">
-      <h2 className="text-xl md:text-2xl font-medium text-zinc-900">FAQ's</h2>
+    <div className="flex flex-col gap-4 w-full lg:w-[95%]  py-5">
+      <h2 className="text-xl md:text-2xl font-medium text-white">FAQ's</h2>
       {faqs &&
         faqs.map((faq) => (
           <Accordion key={faq._id}
@@ -19,7 +19,7 @@ export default function FAQ({ faqs }) {
                 display: "none",
               },
             }}
-            className="!shadow-none !text-[#4A5568] !border-none" >
+            className="!shadow-none !text-gray-100 !border-none !bg-gray-800" >
             <AccordionSummary
               aria-controls={`panel${faq._id}-content`}
               id={`panel${faq.id}-header`}

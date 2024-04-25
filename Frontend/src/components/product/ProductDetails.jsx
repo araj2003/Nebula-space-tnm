@@ -108,7 +108,7 @@ const ProductDetails = () => {
   }
   return (
     <>
-      <div className="w-[95%] sm:w-[90%] lg:w-4/5 mx-auto my-5 py-24 lg:py-8">
+      <div className="w-[95%] sm:w-[90%] lg:w-4/5 mx-auto my-5 py-24 lg:py-8 text-white">
         <MetaData title={product?.name} />
         <div className="justify-center  flex md:gap-10 items-start border-b-2 mb-5 pb-3">
           <div className="hidden md:flex flex-col w-[450px]">
@@ -118,11 +118,11 @@ const ProductDetails = () => {
             <div className="block md:hidden  mx-auto relative mb-4">
               {product?.images && <MobileImages images={product?.images} />}
             </div>
-            <h2 className="capitalize text-[1.75rem] md:text-[2.5rem] font-semibold mt-2">
+            <h2 className="capitalize text-[1.75rem] md:text-[2.5rem] font-semibold mt-2 text-white">
               {product?.productTitle}
             </h2>
             <p
-              className="text-teal-700 text-[14px] md:text-lg"
+              className="text-teal-300 text-[14px] md:text-lg"
               style={{ whiteSpace: "pre-line" }}
             >
               {product?.description}
@@ -141,10 +141,10 @@ const ProductDetails = () => {
                   )}
                 </span>
               </div>
-              <p className="text-lg lg:text-inherit">
+              {/* <p className="text-lg lg:text-inherit">
                 Model No-
                 <span className="font-light">{product?.model_number}</span>
-              </p>
+              </p> */}
             </div>
             <button
               onClick={handleAddToCart}
@@ -155,7 +155,7 @@ const ProductDetails = () => {
                 <CircularProgress className="!text-white !scale-75"/>
               ) : (
                 <div className="flex items-center justify-center gap-2">
-                  <span>Add to Cart</span>
+                  <span>Book Now</span>
                   <span>
                     <FaCartPlus />
                   </span>
@@ -171,7 +171,7 @@ const ProductDetails = () => {
                   setSelectedSize={setSize}
                 />
               )}
-              {product.color && (
+              {/* {product.color && (
                 <ProductColors
                   colors={product?.color}
                   selectedColor={color}
@@ -184,19 +184,19 @@ const ProductDetails = () => {
                   otherVariant={otherVariant}
                   setOtherVariant={setOtherVariant}
                 />
-              )}
+              )} */}
             </div>
           </div>
         </div>
         <div className="ProductDetails flex flex-col  gap-1.5 md:gap-8">
-          <ProductInfo product={product} />
-          {product?.specific_features.length != 0 && (
+          {/* <ProductInfo product={product} /> */}
+          {/* {product?.specific_features.length != 0 && (
             <SpecificFeatures features={product.specific_features} />
-          )}
+          )} */}
           {product?.specific_features.length != 0 && (
             <FAQ faqs={product.faqs} />
           )}
-          <div className="py-6 space-y-2 border-t-2">
+          {/* <div className="py-6 space-y-2 ">
             <p className="text-xl md:text-2xl font-medium text-zinc-900">
               Customer Reviews
             </p>
@@ -213,7 +213,7 @@ const ProductDetails = () => {
                 <ProductReviewCard reviews={product?.reviews} />
               )}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

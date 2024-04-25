@@ -18,12 +18,12 @@ const Sizes = ({ sizes, selectedSize, setSelectedSize }) => {
 	return (
 		<div className=' flex flex-col gap-[50px]'>
 			<div className='flex gap-2 md:gap-5 items-center'>
-				<h2 className='text-[22px] whitespace-nowrap'>Sizes &nbsp; : </h2>
+				<h2 className='text-[22px] whitespace-nowrap'>Packages &nbsp; : </h2>
 				<ul className=' gap-6 flex text-sm flex-wrap'>
 					{nonEmptySizes.map((size, index) => (
 						<li key={index}>
 							<label
-								className={`capitalize inline-flex items-center justify-between w-full py-[10px] px-4 rounded-3xl text-black border border-black cursor-pointer ${
+								className={`capitalize inline-flex items-center justify-between w-full py-[10px] px-4 rounded-3xl text-white border border-white cursor-pointer ${
 									selectedSize === size
 										? "text-white bg-teal-600 border-teal-600"
 										: ""
