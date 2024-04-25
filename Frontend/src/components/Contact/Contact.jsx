@@ -137,8 +137,8 @@ const Contact = () => {
               shippingDetails={shippingDetails}
             />
           </div>
-          <div className="flex flex-col justify-between sm:pb-5  sm:border-l-2 sm:pl-4 mx-auto h-full">
-            <AnimalList
+          <div className="flex flex-col justify-between sm:pb-5 w-1/3  sm:border-l-2 sm:pl-4 mx-auto h-full">
+            {/* <AnimalList
               toDoList={animals}
               animalName={animalName}
               quantity={quantity}
@@ -146,12 +146,12 @@ const Contact = () => {
               handleQuantityChange={handleQuantityChange}
               addItemToList={addItemToList}
               removeItemFromList={removeItemFromList}
-            />
+            /> */}
             <button
               type="submit"
               className="border-2 mb-3 flex gap-2 justify-center items-center group mx-auto w-3/4 border-teal-600 hover:text-teal-700 py-1.5 sm:py-2.5 font-semibold bg-teal-600 text-white transition-all duration-300 text-lg hover:bg-white"
             >
-              Ask for Quotation
+              Confirm Booking
               <BsArrowRight className="transition-all duration-300 group-hover:translate-x-1 text-xl" />
             </button>
           </div>
