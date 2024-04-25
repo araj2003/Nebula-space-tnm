@@ -227,59 +227,61 @@ const SubCategory = () => {
 	}, []);
 
 	return (
-		<div>
-			<Box
-				sx={{
-					width: "100%",
-					"& .actions": {
-						color: "text.secondary",
-					},
-					"& .textPrimary": {
-						color: "text.primary",
-					},
-				}}>
-				<DataGrid
-					rows={rows}
-					columns={columns}
-					initialState={{
-						pagination: {
-							paginationModel: { page: 0, pageSize: 10 },
-						},
-					}}
-					pageSizeOptions={[5, 10, 50, 100]}
-					getCellValue={(params, field) => {
-						return params.row[field];
-					}}
-					checkboxSelection={false}
-					processRowUpdate={processRowUpdate}
-					onProcessRowUpdateError={handleProcessRowUpdateError}
-					getRowId={(row) => row._id}
-					slots={{
-						toolbar: EditToolbar,
-					}}
-					slotProps={{
-						toolbar: { setRows, setRowModesModel },
-					}}
-					editMode='row'
-					rowModesModel={rowModesModel}
-					onRowModesModelChange={handleRowModesModelChange}
-					onRowEditStop={handleRowEditStop}
-				/>
-			</Box>
+    <div>
+      <Box
+        sx={{
+          width: "100%",
+          "& .actions": {
+            color: "text.secondary",
+          },
+          "& .textPrimary": {
+            color: "text.primary",
+          },
+        }}
+      >
+        <DataGrid
+          sx={{
+            bgcolor: "white", // Set the background color here
+          }}
+          rows={rows}
+          columns={columns}
+          initialState={{
+            pagination: {
+              paginationModel: { page: 0, pageSize: 10 },
+            },
+          }}
+          pageSizeOptions={[5, 10, 50, 100]}
+          getCellValue={(params, field) => {
+            return params.row[field];
+          }}
+          checkboxSelection={false}
+          processRowUpdate={processRowUpdate}
+          onProcessRowUpdateError={handleProcessRowUpdateError}
+          getRowId={(row) => row._id}
+          slots={{
+            toolbar: EditToolbar,
+          }}
+          slotProps={{
+            toolbar: { setRows, setRowModesModel },
+          }}
+          editMode="row"
+          rowModesModel={rowModesModel}
+          onRowModesModelChange={handleRowModesModelChange}
+          onRowEditStop={handleRowEditStop}
+        />
+      </Box>
 
-			{!!snackbar && (
-				<Snackbar
-					open
-					anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
-					onClose={handleCloseSnackbar}
-					autoHideDuration={6000}>
-					<Alert
-						{...snackbar}
-						onClose={handleCloseSnackbar}
-					/>
-				</Snackbar>
-			)}
-		</div>
-	);
+      {!!snackbar && (
+        <Snackbar
+          open
+          anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+          onClose={handleCloseSnackbar}
+          autoHideDuration={6000}
+        >
+          <Alert {...snackbar} onClose={handleCloseSnackbar} />
+        </Snackbar>
+      )}
+    </div>
+  );
 };
 export default SubCategory;

@@ -81,6 +81,10 @@ const Reviews = () => {
 		<div>
 			<DataGrid
 				rows={rows}
+				sx={{
+					bgcolor: 'white', // Set the background color here
+					
+				}}
 				columns={columns}
 				initialState={{
 					pagination: {

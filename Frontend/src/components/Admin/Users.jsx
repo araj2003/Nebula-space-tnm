@@ -101,6 +101,10 @@ const Users = () => {
 				Export CSV
 			</button>
 			<DataGrid
+			sx={{
+				bgcolor: 'white', // Set the background color here
+				
+			}}
 				rows={rows}
 				columns={columns}
 				initialState={{

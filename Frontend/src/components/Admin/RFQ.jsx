@@ -139,7 +139,13 @@ const RFQ = () => {
 					toolbar: EditToolbar,
 				}}
 				checkboxSelection={false}
+				sx={{
+					bgcolor: 'white', // Set the background color here
+					
+				}}
 			/>
+
+
 		</div>
 	);
 };

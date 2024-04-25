@@ -156,6 +156,10 @@ const Orders = () => {
 			<DataGrid
 				rows={rows}
 				columns={columns}
+				sx={{
+					bgcolor: 'white', // Set the background color here
+					
+				}}
 				initialState={{
 					pagination: {
 						paginationModel: { page: 0, pageSize: 10 },

@@ -258,6 +258,9 @@ const SubCategory = () => {
 					},
 				}}>
 				<DataGrid
+				sx={{
+					bgcolor: 'white', // Set the background color here
+				}}
 					rows={rows}
 					columns={columns}
 					initialState={{
