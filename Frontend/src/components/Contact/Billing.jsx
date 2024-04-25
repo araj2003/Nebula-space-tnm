@@ -208,7 +208,7 @@ const Billing = ({
               rows="2"
               value={billingDetails.address}
               onChange={onBillingChange}
-              className="block p-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 outline-none  resize-none"
+              className="block p-2 w-full text-sm text-gray-800 bg-gray-50 rounded-lg border border-gray-300 outline-none  resize-none"
               placeholder="Your Billing Address..."
             ></textarea>
           </div>
