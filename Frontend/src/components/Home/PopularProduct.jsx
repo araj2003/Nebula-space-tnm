@@ -40,9 +40,9 @@ export default function PopularProduct({ recommended }) {
     };
   }, []);
   return (
-    <div className="w-[97.5%] sm:w-[90%] lg:w-[85%] mx-auto py-3 px-8 bg-white container">
-      <h2 className="text-2xl lg:text-3xl font-semibold  px-1 mb-5">
-        Recommended Products
+    <div className="w-[97.5%] sm:w-[90%] lg:w-[85%] mx-auto py-3 px-8 container">
+      <h2 className="text-2xl lg:text-3xl font-semibold  px-1 mb-5 text-white">
+        Trending Destinations
       </h2>
       <Swiper
         modules={[Virtual, Navigation, Pagination]}
@@ -50,14 +50,14 @@ export default function PopularProduct({ recommended }) {
         spaceBetween={30}
         navigation={true}
         virtual
-        className="flex items-center"
+        className="flex items-center bg-black"
       >
         {recommended.map((product, index) => (
-          <SwiperSlide key={product._id} virtualIndex={index} className="p-1">
+          <SwiperSlide key={product._id} virtualIndex={index} className="!bg-black">
             {/* {slideContent} */}
             <Link
               to={`/product/${product._id}`}
-              className="transition-all duration-200  hover:border-teal-300  flex flex-col rounded-xl overflow-hidden border-2 px-3 py-5 gap-7 items-center"
+              className="transition-all duration-200  border border-gray-800 hover:border-teal-300  flex flex-col rounded-xl overflow-hidden  px-3 py-5 gap-7 items-center bg-gray-800 "
             >
               <img
                 src={product.images[0]}
@@ -66,10 +66,10 @@ export default function PopularProduct({ recommended }) {
                 loading="lazy"
               />
               <div className="space-y-3 pl-3 pr-2">
-                <h2 className="text-xl font-semibold text-zinc-700 line-clamp-1 capitalize">
+                <h2 className="text-xl font-semibold text-white line-clamp-1 capitalize">
                   {product.productTitle}
                 </h2>
-                <p className="text-base font-medium text-gray-500 line-clamp-3">
+                <p className="text-base font-medium text-gray-50 line-clamp-3">
                   {product.description}
                 </p>
                 <div className="flex justify-between items-center">

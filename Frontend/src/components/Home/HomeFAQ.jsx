@@ -3,59 +3,61 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import { MdExpandMore } from "react-icons/md";
+
 export default function HomeFAQ() {
   const faqs = [
     {
-      question: "What is VetMedMan?",
+      question: "What is SpaceWonders?",
       answer:
-        "Vetmedman, your trusted partner in providing top-quality medical equipment and supplies for veterinary doctors and hospitals. We are passionate about delivering excellence and ensuring customer satisfaction. With a comprehensive range of products, we offer innovative solutions to meet the unique needs of each customer.",
+        "SpaceWonders is your premier destination for extraordinary space tourism experiences and services. We are dedicated to providing unparalleled adventures beyond Earth's atmosphere, ensuring the utmost satisfaction for our space travelers.",
     },
     {
-      question: "What types of products does VetMedMan offer?",
+      question: "What types of experiences does SpaceWonders offer?",
       answer:
-        "We offer extensive animal health and medical supplies, including...",
+        "We offer a diverse range of space tourism experiences, including...",
     },
     {
-      question: "Are VetMedMan products safe and reliable?",
+      question: "Are SpaceWonders experiences safe and reliable?",
       answer:
-        "Absolutely. Our products undergo rigorous quality testing and adhere to the highest industry standards. We collaborate with veterinarians and experts to ensure our offerings' safety, effectiveness, and reliability.",
-    },
-    {
-      question:
-        "Do I need a prescription for pharmaceuticals and surgical items?",
-      answer:
-        "Prescriptions may be required for certain pharmaceutical products as per regulatory guidelines. Surgical items are available for purchase without a prescription. Please review the product descriptions or consult our customer service team for specific details.",
-    },
-    {
-      question: "How do I place an order?",
-      answer:
-        "Ordering from VetMedMan is convenient and user-friendly. Browse through our categories, add desired items to the cart and the quantity required, and proceed to checkout. If you need assistance, our customer service team is ready to help.",
-    },
-    {
-      question: "What payment methods are accepted?",
-      answer:
-        "At VetMedMan, we offer a seamless and secure shopping experience with a variety of payment options, including major credit cards, debit cards, trusted electronic payment platforms (Google Pay, Phonepay), and bank transfers. Your financial security is our priority, and you can choose the payment method that suits you best during checkout.",
-    },
-    {
-      question: "What is VetMedMan's shipping and return policy?",
-      answer:
-        "Shipping: VetMedMan is committed to timely and reliable shipping. Shipping costs and delivery times may vary based on your location and chosen shipping method. We aim to get your products to you as efficiently as possible. Please refer to the shipping information provided during checkout for specific details.\n\nReturn and Exchange: We stand by the quality of our products. If you're not completely satisfied with your purchase, you may be eligible for a return or exchange. Please review our comprehensive Return and Exchange Policy on our website for detailed instructions and conditions. Your satisfaction is our priority, and we're here to assist you throughout the process.",
-    },
-    {
-      question: "How can I reach VetMedMan's customer support?",
-      answer:
-        "For any inquiries or assistance, our dedicated customer support team is available via email, phone, or live chat on our website.",
+        "Absolutely. Our experiences undergo meticulous safety protocols and adhere to the highest industry standards. We collaborate with space experts to ensure the safety, authenticity, and reliability of each journey.",
     },
     {
       question:
-        "Thank you for choosing VetMedMan as your partner in animal health, pharmaceuticals, and surgical solutions.",
+        "Do I need any special qualifications to participate in SpaceWonders tours?",
       answer:
-        "We're committed to delivering exceptional products and services to ensure the best care for your animals.",
+        "Most of our tours are designed to accommodate space enthusiasts of all backgrounds and experience levels. However, certain experiences may have specific eligibility requirements. Please review the tour descriptions or contact our customer service team for more information.",
+    },
+    {
+      question: "How do I book a space tour with SpaceWonders?",
+      answer:
+        "Booking a space tour with SpaceWonders is simple and straightforward. Explore our available tours, select your desired itinerary, and follow the booking instructions. If you require assistance, our customer service team is ready to assist you.",
+    },
+    {
+      question: "What payment methods are accepted for space tours?",
+      answer:
+        "We offer a variety of secure payment options for your convenience, including major credit cards, debit cards, and trusted electronic payment platforms. Your financial security is our priority, and you can choose the payment method that best suits you during the booking process.",
+    },
+    {
+      question: "What is SpaceWonders' cancellation policy?",
+      answer:
+        "Cancellation policies may vary depending on the specific tour or experience you've booked. Please refer to the tour description or contact our customer service team for detailed cancellation information.",
+    },
+    {
+      question: "How can I contact SpaceWonders' customer support?",
+      answer:
+        "Our dedicated customer support team is available to assist you with any inquiries or assistance you may need. You can reach us via email, phone, or live chat on our website.",
+    },
+    {
+      question:
+        "Thank you for choosing SpaceWonders for your unforgettable space adventures.",
+      answer:
+        "We're committed to providing you with extraordinary experiences and memories that will last a lifetime.",
     },
   ];
+
   return (
-    <div className="flex flex-col gap-4 w-[95%] sm:w-[90%] lg:w-[85%] mx-auto">
-      <h2 className="text-xl md:text-2xl font-semibold text-zinc-900">
+    <div className="flex flex-col gap-4 w-[95%] sm:w-[90%] lg:w-[85%] mx-auto !font-medium">
+      <h2 className="text-xl md:text-2xl  text-white">
         Frequently Asked Questions
       </h2>
       {faqs &&
@@ -69,10 +71,10 @@ export default function HomeFAQ() {
               },
             }}
             key={index}
-            className="!shadow-none !text-[#4A5568] !border-none"
+            className="!shadow-none !text-white !bg-gray-900 !border-none"
           >
             <AccordionSummary expandIcon={<MdExpandMore className="text-xl scale-x-125"/>}>
-              <p className=" font-semibold ">{`${index + 1}. ${
+              <p className="font-medium">{`${index + 1}. ${
                 faq.question
               }`}</p>
             </AccordionSummary>

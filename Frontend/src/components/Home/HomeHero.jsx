@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 const HomeHero = () => {
   const { isAuthenticated, loading } = useSelector((state) => state.user);
   return (
-    <div className="flex text-white flex-col md:pt-20 gap-7 justify-center pb-[5%] imagebg  min-h-[60vh]   lg:min-h-[calc(100vh-2rem)] w-[95%] sm:w-[90%] lg:w-[85%] mx-auto">
+    <div className="flex text-white flex-col md:pt-4 gap-7 justify-center pb-[5%] imagebg  min-h-[60vh]   lg:min-h-[calc(100vh-2rem)] w-[95%] sm:w-[90%] lg:w-[85%] mx-auto">
       <div className="relative font-bold">
         {/* <div className="text-3xl sm:text-4xl text-center lg:hidden">
           <p>

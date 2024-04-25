@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
   return (
     <Link
       to={`/product/${product._id}`}
-      className="product-card-link max-w-[400px]  lg:max-w-[290px]  p-4  shadow lg:shadow-none rounded-md transition-all duration-200 hover:ring-[2px] ring-teal-300 bg-white "
+      className="product-card-link max-w-[400px]  lg:max-w-[290px]  p-4  shadow lg:shadow-none rounded-md transition-all duration-200 hover:ring-[2px] ring-teal-300 bg-gray-800 "
     >
       <div
         className="min-h-fit flex flex-col items-center  gap-1.5"
@@ -22,12 +22,12 @@ const ProductCard = ({ product }) => {
           />
         </figure>
         <div className="flex flex-col justify-between mt-2 md:mt-4 w-full">
-          <h2 className="w-full  truncate  capitalize md:text-left text-center sm:text-lg  md:text-xl font-medium text-zinc-800">
+          <h2 className="w-full  truncate  capitalize md:text-left text-center sm:text-lg  md:text-xl font-medium text-white">
             {product?.productTitle.toLowerCase()} &nbsp;
             {product?.weight_of_the_commodity}
           </h2>
         </div>
-        <div className="line-clamp-2 md:line-clamp-3 text-[0.95rem] text-[#797979] font-medium">
+        <div className="line-clamp-2 md:line-clamp-3 text-[0.95rem] text-gray-100 font-medium">
           {product?.description}
         </div>
         <div className="flex items-center justify-between  w-full flex-col-reverse gap-1 md:flex-row">

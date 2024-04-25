@@ -14,15 +14,16 @@ const About = () => {
         <img src={logoWhite} alt="logo" />
         <h2 className="text-2xl md:text-4xl font-semibold">About Us</h2>
         <p className="w-[90%] md:w-4/5 text-center space-y-3">
-          Welcome to Vetmedman, your trusted partner in providing top-quality
-          medical equipment and supplies for veterinary doctors and hospitals.
-          We are passionate about delivering excellence and ensuring customer
-          satisfaction. With a comprehensive range of products sourced from
-          leading manufacturers, we offer innovative solutions to meet the
-          unique needs of each customer. Our dedicated team provides
-          personalized assistance, reliable after-sales support, and prompt
-          delivery. Together, let's contribute to the advancement of animal care
-          and the well-being of our beloved companions
+          Welcome to SpaceWonders, your premier destination for space tourism
+          experiences and services. We are committed to providing unparalleled
+          adventures and ensuring the utmost satisfaction for our space
+          travelers. With an extensive array of offerings sourced from top space
+          agencies and providers, we offer innovative solutions to cater to the
+          unique desires of each space tourist. Our dedicated team offers
+          personalized guidance, steadfast support, and seamless logistics to
+          ensure an unforgettable journey beyond Earth's atmosphere. Join us as
+          we embark on extraordinary voyages and contribute to the advancement
+          of space exploration and the awe-inspiring wonder of the cosmos.
         </p>
       </div>
     </section>

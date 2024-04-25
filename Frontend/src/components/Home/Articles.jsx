@@ -29,10 +29,10 @@ const Articles = () => {
   return (
     <section
       id="articles"
-      className="w-[95%] sm:w-[90%] lg:w-[85%] mx-auto bg-white container p-3"
+      className="w-[95%] sm:w-[90%] lg:w-[85%] mx-auto bg-black container p-3"
     >
-      <h2 className="text-2xl lg:text-3xl font-semibold  px-6 md:px-10 mb-5">
-        Latest Articles
+      <h2 className="text-2xl lg:text-3xl font-semibold  px-6 md:px-10 mb-5 text-white">
+        Our Latest Articles
       </h2>
       <Swiper
         navigation={true}
@@ -49,7 +49,7 @@ const Articles = () => {
       >
         {articles.map((article) => (
           <SwiperSlide
-            className="flex  lg:flex-row pmd:py-10 px-6  lg:px-14 gap-4 sm:gap-7 lg:gap-20 lg:py-5"
+            className="flex  !bg-black lg:flex-row pmd:py-10 px-6 py-4 lg:px-14 gap-4 sm:gap-7 lg:gap-20 lg:py-5"
             key={article._id}
           >
             <div className="relative   lg:mt-8 ">

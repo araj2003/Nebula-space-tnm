@@ -9,7 +9,9 @@ const Layout = () => {
     <>
       <ScrollRestoration />
       <Navbar />
+      <div className="pt-20">
       <Outlet />
+      </div>
       <TabsSidebar />
       <ToastContainer
         position="top-center"

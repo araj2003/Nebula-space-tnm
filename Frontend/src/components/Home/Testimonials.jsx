@@ -51,9 +51,9 @@ function Testimonials() {
 
   return (
     <div className="w-[95%] sm:w-[90%] lg:w-[85%] mx-auto my-5">
-      <h2 className="text-2xl text-center lg:text-3xl font-semibold text-zinc-800 mb-8 relative w-fit mx-auto">
-        <div className="bg-[#FAFAFA] h-20 w-20 absolute opacity-70 top-0 left-0"></div>
-        <div className="bg-[#FAFAFA] h-20 w-20 absolute opacity-70 top-0 right-0"></div>
+      <h2 className="text-2xl text-center lg:text-3xl font-semibold text-white mb-8 relative w-fit mx-auto">
+        {/* <div className="bg-[#FAFAFA] h-20 w-20 absolute opacity-70 top-0 left-0"></div>
+        <div className="bg-[#FAFAFA] h-20 w-20 absolute opacity-70 top-0 right-0"></div> */}
         <span className="hidden md:inline">- - - - - -</span> - - - - - -
         Testimonials - - - - - -{" "}
         <span className="hidden md:inline">- - - - - -</span>

@@ -51,14 +51,14 @@ const Home = () => {
       <MetaData title="VetMedMan" />
       <HomeHero />
       <FeaturedProducts featured={featured} />
-      <Ads />
+      {/* <Ads /> */}
       <OurCategories />
-      <IndustryAnimals />
+      {/* <IndustryAnimals /> */}
       <PopularProduct recommended={recommended} />
       <Articles />
       <About />
       <Testimonials />
-      <Ads />
+      {/* <Ads /> */}
       <HomeFAQ />
     </section>
   );

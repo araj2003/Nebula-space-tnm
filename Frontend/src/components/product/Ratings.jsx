@@ -11,7 +11,7 @@ const Ratings = ({ ratings }) => {
           size="small"
           className="mb-1"
         />
-      <p className=" hidden md:flex text-gray-500 font-medium ">
+      <p className=" hidden md:flex text-gray-200 font-medium ">
         {ratings.total_no_of_reviews} Reviews
       </p>
       <style>

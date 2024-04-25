@@ -48,7 +48,7 @@ const Navbar = () => {
           <div className="h-[4.7rem] flex justify-center items-center">
             <Link to="/" className="w-full h-full flex items-center text-white text-lg font-medium">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTMA2vjPal73v3kL_lKJAI1WRhMUd4z45-YKjppOfOqi6oZlGBk9EcjEXc1J4WdRDwGW4&usqp=CAU" className="h-4/5 " alt="logo" />
-              <span>Rocketeers</span>
+              <span>Space Wonders</span>
             </Link>
           </div>
           <SearchBar />

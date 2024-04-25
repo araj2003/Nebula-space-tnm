@@ -9,7 +9,9 @@ export default {
       colors: {
         teal: {
           '600': '#380773',
-          '700' : "#d41473"
+          '700' : "#d41473",
+          '300' : "#e2806a"
+
   
           // You can also update other shades if needed
         },
