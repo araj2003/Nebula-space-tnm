@@ -13,14 +13,14 @@ const Billing = ({
   return (
     <div className="pb-5 w-full pr-8 mt-1">
       <button
-        className="mb-6 italic underline text-teal-800 flex items-center  "
+        className="mb-6 italic underline text-teal-700 flex items-center  "
         onClick={handleClick}
       > 
         <BiCheckboxChecked className="text-xl mb-0.5"/>
         <span >Billing Info same as Shipping Info</span>
       </button>
-      <h2 className="font-semibold text-2xl md:text-3xl text-gray-700 mb-4 ">
-        Billing Info
+      <h2 className="font-semibold text-2xl md:text-3xl text-white mb-4 ">
+        Billing Address
       </h2>
       <div className="w-full">
         <div className="w-full space-y-3">

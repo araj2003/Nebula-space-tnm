@@ -105,17 +105,17 @@ const Navbar = () => {
                   </div>
                 )}
               </div>
-              {/* <Link to="/cart" className="AddToCart w-20 h-8 relative">
+              <Link to="/cart" className="AddToCart w-20 h-8 relative">
                 <div className="Cart left-[13px] top-0 absolute justify-start items-center inline-flex">
                   <div className="flex-col justify-center items-center inline-flex">
                     <img src={Cart} alt="cart" />
                   </div>
-                  <div className="Cart text-zinc-900 text-base">Cart</div>
+                  <div className="Cart text-white text-base">Bookings</div>
                 </div>
-                <div className="Number w-4 left-1 top-0 absolute bg-teal-500 rounded-full  text-xs justify-center items-center flex text-white">
+                <div className="Number w-4 -left-2 top-1 absolute bg-teal-700 rounded-full  text-xs justify-center items-center flex text-white">
                   {cartItems.length}
                 </div>
-              </Link> */}
+              </Link>
             </div>
           </div>
         </div>

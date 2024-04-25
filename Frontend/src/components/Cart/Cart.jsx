@@ -63,7 +63,7 @@ const Cart = () => {
 				<Loader />
 			) : cart.length === 0 ? (
 				<div className='pt-24 lg:pt-0  min-h-[70vh] flex justify-center flex-col gap-3 items-center'>
-					<MdRemoveShoppingCart className='text-teal-600 text-5xl md:text-[100px]' />
+					<MdRemoveShoppingCart className='text-white text-5xl md:text-[100px]' />
 					<h2 className='text-gray-400 font-semibold text-lg md:text-2xl'>
 						{" "}
 						No Products in your Cart
@@ -79,7 +79,7 @@ const Cart = () => {
 					<div className='min-h-[75vh] pt-32 lg:py-10 flex flex-col md:flex-row  gap-5 w-[90%] mx-auto'>
 						<div className='flex flex-col gap-5 md:w-3/5 '>
 							<div className='w-full'>
-								<h2 className='text-3xl font-semibold md:text-[2rem] w-full text-gray-800 pl-4 border-b-2 pb-3 text-center  md:text-left'>
+								<h2 className='text-3xl font-semibold md:text-[2rem] w-full text-white pl-4 border-b-2 pb-3 text-center  md:text-left'>
 									Your Shopping Cart
 								</h2>
 							</div>

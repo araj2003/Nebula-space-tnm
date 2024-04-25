@@ -17,8 +17,8 @@ const Shipping = ({ shippingDetails, onShippingChange }) => {
   return (
     <>
       <div className="pb-5 w-full pr-8">
-        <h2 className="font-semibold text-2xl md:text-3xl text-gray-900 mb-4">
-          Shipping Info
+        <h2 className="font-semibold text-2xl md:text-3xl text-white mb-4">
+          Personal Address
         </h2>
         <div className="w-full">
           <div className="w-full space-y-3">

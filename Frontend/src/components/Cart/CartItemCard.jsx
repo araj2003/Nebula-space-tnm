@@ -33,7 +33,7 @@ const CartItemCard = ({
         </figure>
         <div className="flex flex-col pt-3 gap-4">
           <Link to={`/product/${product._id}`}>
-            <p className="capitalize text-xl md:text-[22px] hover:underline  text-gray-800">
+            <p className="capitalize text-xl md:text-[22px] hover:underline  text-white">
               {product.name}
             </p>
           </Link>
@@ -42,7 +42,7 @@ const CartItemCard = ({
             {item.size !== "NaN" && <div>{item.size}&nbsp;</div>}
             {item.other !== "NaN" && <div>{item.other}&nbsp;</div>}
           </div>
-          <div className="flex gap-3 border w-fit items-center">
+          <div className="flex gap-3 border w-fit items-center text-teal-300">
             <button
               onClick={async () => {
                 setItemQty((prevQty) => {
@@ -60,7 +60,7 @@ const CartItemCard = ({
             >
               -
             </button>
-            <span className="text-sm text-black">{itemQty}</span>
+            <span className="text-sm text-teal-300">{itemQty}</span>
             <button
               onClick={async () => {
                 setItemQty((prevQty) => {

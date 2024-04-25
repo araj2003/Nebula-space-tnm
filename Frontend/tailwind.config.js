@@ -15,6 +15,9 @@ export default {
   
           // You can also update other shades if needed
         },
+        gray:{
+          "900" : "white",
+        }
       },
     },
   },
