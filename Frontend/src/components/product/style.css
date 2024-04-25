@@ -1,0 +1,7 @@
+.pagination__link--active {
+  background-color: #0D9488; /* Highlight color (teal-600) */
+  color: white; /* Text color */
+  border-color: #06b6d4; /* Border color */
+  padding: 0 10px;
+  border-radius: 100%
+}

@@ -1,0 +1,17 @@
+.pagination__link--active {
+  background-color: #0D9488; /* Highlight color (teal-600) */
+  color: white; /* Text color */
+  border-color: #06b6d4; 
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  gap:10px;
+}

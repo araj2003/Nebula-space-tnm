@@ -1,0 +1,22 @@
+/* Default styles for small screens */
+.MuiTabs-flexContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.MuiButtonBase-root {
+  padding: 8px !important;
+  min-width: 35px !important;
+  min-height: 35px !important;
+}
+
+/* Media query for medium or larger screens */
+@media (min-width: 768px) {
+  .MuiButtonBase-root {
+    padding: 12px !important;
+    min-width: 50px !important;
+    min-height: 50px !important;
+  }
+}

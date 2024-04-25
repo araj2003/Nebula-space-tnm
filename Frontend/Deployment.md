@@ -1,0 +1,13 @@
+# Front End Deployment
+- Check Docs change api.js to backend link
+- Make a new app service on Azure -> Web App
+- Create a Resource Group 
+- Node Version 16
+- Linux Machine
+- Set region East US
+- Deployment -> Connect Github Repo
+- Network -> Enable Public Access
+- Go to Repo -> Edit the Workflow file -> to zip and upload (Refer current WorkFlow File)
+- Go to App Service -> Use the App Service editor to upload web.config
+- Finish and run
+- In Configuration->General Settings->Startup Command ->pm2 serve /home/site/wwwroot/build --no-daemon

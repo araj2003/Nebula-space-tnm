@@ -1,0 +1,20 @@
+.fieldContainer {
+	display: flex;
+	align-items: center;
+	margin-bottom: 16px;
+}
+
+.label {
+	font-weight: bold;
+	margin-right: 8px;
+	width: 60%;
+}
+
+.textField {
+	flex: 1;
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+.saveButton {
+	margin-top: 16px;
+}

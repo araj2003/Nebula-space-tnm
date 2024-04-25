@@ -1,0 +1,19 @@
+#root{
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+
+.bg-category{
+    background-image: url("./assets/images/categorybg.png");
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#about{
+  background-image: url("./assets/images/about-bg.png");
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

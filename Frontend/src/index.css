@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background: #FAFAFA;
+}
+:root {
+  --dark-green-color: #217c04;
+  --green-color: #34b50c;
+  --light-green-color: #3cf300;
+  --light-color: #feffc9;
+  
+}
+
+.MuiTableCell-root {
+}
+
+.MuiTableCell-root {
+  padding: 10px 5px 10px 10px !important;
+}
+
+.MuiFormLabel-root-MuiInputLabel-root {
+  font-size: 14px !important;
+}
+.MuiInputBase-input {
+  font-size: 16px !important;
+}
+.MuiAutocomplete-popper {
+  font-size: 14px !important;
+}
+
+.MuiAutocomplete-inputRoot{
+  border-radius: 18px !important;
+  overflow: hidden !important;
+background: #F6F6F6;
+}
+.MuiInputBase-root-MuiOutlinedInput-root,
+.MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 20px !important;
+  margin-right: 10px !important;
+}
+ .MuiOutlinedInput-root
+  .MuiAutocomplete-endAdornment {
+  display: none;
+}
+
+.MuiChip-label{
+  font-size: 14px !important;
+}
+
+.MuiAutocomplete-root .MuiAutocomplete-tag{
+  min-width: 0px !important; 
+  min-height: 10px !important; 
+  padding: 4px 3px !important; 
+margin-right: 5px !important;
+}
+
+
