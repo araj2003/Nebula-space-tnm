@@ -45,16 +45,16 @@ const Product = () => {
 	return (
 		<div>
 			<div className="pt-24   lg:py-0 flex flex-col  md:flex-row gap-1">
-				<div className="md:w-[20vw] lg:w-[14vw] mb-3 md:mb-0">
+				{/* <div className="md:w-[20vw] lg:w-[14vw] mb-3 md:mb-0">
 					<Filters />
 					<MobileFilters />
-				</div>
+				</div> */}
 				<div className="w-full md:w-5/6   mx-auto  px-2">
 					{loading ? (
 						<Loader />
 					) : (
 						<>
-							<div className="mt-5 underline mb-3 text-lg md:text-xl font-semibold text-zinc-600 text-center md:text-left">{`Showing ${
+							<div className="mt-5 underline mb-3 text-lg md:text-xl font-semibold text-white text-center md:text-left">{`Showing ${
 								totalProduct === 0 ? 0 : resPerPage * (currentPage - 1) + 1
 							} - ${Math.min(
 								resPerPage * currentPage,

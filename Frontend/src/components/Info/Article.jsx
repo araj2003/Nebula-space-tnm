@@ -12,7 +12,7 @@ const Article = ({ article }) => {
   };
 
   return (
-    <div className="border-2 shadow-md outline-2 pb-3 hover:outline outline-teal-300 transition-all duration-100 overflow-hidden ">
+    <div className="border-2 shadow-md outline-2 pb-3 hover:outline outline-teal-300 transition-all duration-100 overflow-hidden bg-gray-800">
       <Link to={`${article._id}`} className="  flex flex-col gap-0.5 h-full">
         <figure className="h-32 md:h-44">
           <img
@@ -21,10 +21,10 @@ const Article = ({ article }) => {
             className="object-cover h-full w-full object-top "
           />
         </figure>
-        <h3 className="text-xl md:text-2xl w-full text-zinc-600 font-semibold line-clamp-2 min-h-[52px] items-center px-3 pt-3">
+        <h3 className="text-xl md:text-2xl w-full text-white font-semibold line-clamp-2 min-h-[52px] items-center px-3 pt-3">
           {article.title}
         </h3>
-        <div className="flex items-center gap-2 px-1 py-2 border-y mx-2 my-1 text-sm  text-gray-600">
+        <div className="flex items-center gap-2 px-1 py-2 border-y mx-2 my-1 text-sm  text-gray-100">
           <img
             src={article.authorPic}
             alt=""
@@ -34,7 +34,7 @@ const Article = ({ article }) => {
           {"|"}
           <p>{formatDate(article.updatedAt)}</p>
         </div>
-        <p className="text-xs md:text-sm text-gray-600 px-3  my-2 line-clamp-4">
+        <p className="text-xs md:text-sm text-gray-200 px-3  my-2 line-clamp-4">
           {article.description}
         </p>
        { article?.readTime && <span className="mx-3 py-1 px-2 text-xs rounded-full mt-auto text-gray-100 bg-teal-600 self-baseline align-bottom">

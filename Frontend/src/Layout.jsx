@@ -9,7 +9,7 @@ const Layout = () => {
     <>
       <ScrollRestoration />
       <Navbar />
-      <div className="pt-20">
+      <div className="pt-24">
       <Outlet />
       </div>
       <TabsSidebar />

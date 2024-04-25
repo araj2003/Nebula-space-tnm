@@ -31,26 +31,26 @@ const ArticlePage = () => {
   }, []);
 
   return (
-    <div className="mx-auto pt-20 pb-5 lg:pt-0 min-h-[75vh] bg-white flex flex-col justify-between">
+    <div className="mx-auto pt-20 pb-5 lg:pt-0 min-h-[75vh]  flex flex-col justify-between">
       <MetaData />
       <div className="flex flex-col gap-4 max-w-3xl mx-auto shadow-sm px-5">
         <Link
           to={"/allarticles"}
-          className="mt-3 flex items-center gap-1 text-lg text-teal-800  pr-3  "
+          className="mt-3 flex items-center gap-1 text-lg text-teal-700  pr-3  "
         >
           <span>
             <IoArrowBackOutline />
           </span>
           <span>All Articles </span>
         </Link>
-        <h2 className="text-3xl md:text-5xl w-full font-semibold  text-zinc-800">
+        <h2 className="text-3xl md:text-5xl w-full font-semibold  text-white">
           {article?.title}
         </h2>
         <div>
-          <p className="font-[450] text-gray-600 text-xl  mb-3">
+          <p className="font-[450] text-white text-xl  mb-3">
             {article?.description}
           </p>
-          <div className="flex items-center gap-3 py-2 border-y m-2  text-sm md:text-base  text-gray-600">
+          <div className="flex items-center gap-3 py-2 border-y m-2  text-sm md:text-base  text-gray-200">
             <img
               src={article?.authorPic}
               alt=""
@@ -82,7 +82,7 @@ const ArticlePage = () => {
             className=" object-cover w-full max-h-96"
           />
         </figure>
-        <div style={{ padding: "10px" }} className="text-gray-800">
+        <div style={{ padding: "10px" }} className="text-gray-100">
           {ReactHtmlParser(article?.content)}
         </div>
         <div className="flex flex-row-reverse items-center gap-3 py-2 border-y m-2  text-base md:text-lg font-medium md:px-4 text-gray-600">

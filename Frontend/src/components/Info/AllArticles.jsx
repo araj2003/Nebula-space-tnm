@@ -5,7 +5,7 @@ import Article from "./Article";
 import axios from "axios";
 import { API_URL } from "../../api";
 
-const ITEMS_PER_PAGE = 12;
+const ITEMS_PER_PAGE = 5;
 
 const AllArticles = () => {
 	const [currentPage, setCurrentPage] = useState(0);
@@ -41,16 +41,16 @@ const AllArticles = () => {
   ));
 
 	return (
-		<div className="w-[95%] sm:w-[90%] px-4 mx-auto bg-white pt-24 pb-5 lg:py-7 min-h-[75vh] flex flex-col justify-between">
+		<div className="w-[95%] sm:w-[90%] px-4 mx-auto pt-24 pb-5 lg:py-7 min-h-[75vh] flex flex-col justify-between">
 			<div>
-				<h2 className="text-2xl text-center sm:text-left md:text-3xl font-semibold underline mb-6 md:mb-8">
+				<h2 className="text-2xl text-center text-white sm:text-left md:text-3xl font-semibold underline mb-6 md:mb-8">
 					Articles & Blogs
 				</h2>
 				<div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 lg:gap-10 px-1">
 					{displayedArticles}
 				</div>
 			</div>
-			<div className="w-fit mx-auto bg-teal-50 px-2 py-0.5 border mt-20 text-teal-800 border-teal-600 rounded-md ">
+			<div className="w-fit mx-auto bg-teal-600 px-2 py-0.5 border mt-20 text-white border-teal-600 rounded-md ">
 				<ReactPaginate
 					previousLabel={"← Prev"}
 					nextLabel={"Next →"}
@@ -61,7 +61,7 @@ const AllArticles = () => {
 					onPageChange={handlePageChange}
 					containerClassName={"pagination"}
 					activeClassName={"pagination__link--active"}
-					className="flex gap-3 mx-auto+"
+					className="flex gap-3 mx-auto"
 				/>
 			</div>
 		</div>

@@ -29,9 +29,9 @@ const Articles = () => {
   return (
     <section
       id="articles"
-      className="w-[95%] sm:w-[90%] lg:w-[85%] mx-auto bg-black container p-3"
+      className="w-[95%] sm:w-[90%] lg:w-[85%] mx-auto container p-5"
     >
-      <h2 className="text-2xl lg:text-3xl font-semibold  px-6 md:px-10 mb-5 text-white">
+      <h2 className="text-2xl lg:text-3xl font-medium  px-6 md:px-10 mb-5 text-white">
         Our Latest Articles
       </h2>
       <Swiper
@@ -49,7 +49,7 @@ const Articles = () => {
       >
         {articles.map((article) => (
           <SwiperSlide
-            className="flex  !bg-black lg:flex-row pmd:py-10 px-6 py-4 lg:px-14 gap-4 sm:gap-7 lg:gap-20 lg:py-5"
+            className="flex  !bg-gray-800 lg:flex-row pmd:py-10 p-6 lg:px-14 gap-4 sm:gap-7 lg:gap-20 lg:py-5"
             key={article._id}
           >
             <div className="relative   lg:mt-8 ">
@@ -61,19 +61,19 @@ const Articles = () => {
               <div className="w-[21vw] aspect-[0.75] bg-teal-600 rounded-lg hidden lg:block" />
             </div>
             <div className="h-full self-start text-left flex flex-col gap-3 mt-2 lg:mt-5 w-3/5 lg:w-4/5">
-              <h2 className="text-zinc-900 text-xl sm:text-2xl lg:text-4xl font-bold line-clamp-1 lg:line-clamp-2">
+              <h2 className="text-white text-xl sm:text-2xl lg:text-4xl font-semibold line-clamp-1 lg:line-clamp-2">
                 {article.title}
               </h2>
-              <p className="text-neutral-500 text-base sm:text-xl lg:text-2xl font-semibold line-clamp-2 sm:line-clamp-3 lg:line-clamp-4">
+              <p className="text-gray-200 text-base sm:text-xl lg:text-2xl font-medium line-clamp-2 sm:line-clamp-3 lg:line-clamp-4">
                 {article.description}
               </p>
-              <div className="hidden md:block">
+              <div className="hidden md:block !text-teal-300">
                 {article?.content &&
                   ReactHtmlParser(article?.content.substring(0, 250) + "...")}
               </div>
               <Link
                 to={`/allarticles/${article._id}`}
-                className="w-fit px-3 py-1.5 sm:px-4 sm:py-2 text-white grid place-content-center text-sm lg:text-base font-medium capitalize bg-teal-600 rounded-[5px] my-2  hover:bg-teal-700 active:bg-teal-800 transition-all"
+                className="w-fit px-3 py-1.5 sm:px-4 sm:py-2 text-white grid place-content-center text-sm lg:text-base font-medium capitalize bg-teal-600 rounded-[5px] my-2  hover:bg-teal-700 active:bg-teal-700 transition-all"
               >
                 Read more
               </Link>
