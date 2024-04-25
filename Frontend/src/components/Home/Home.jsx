@@ -50,9 +50,9 @@ const Home = () => {
       <ScrollRestoration />
       <MetaData title="VetMedMan" />
       <HomeHero />
+      <FeaturedProducts featured={featured} />
       <Ads />
       <OurCategories />
-      <FeaturedProducts featured={featured} />
       <IndustryAnimals />
       <PopularProduct recommended={recommended} />
       <Articles />

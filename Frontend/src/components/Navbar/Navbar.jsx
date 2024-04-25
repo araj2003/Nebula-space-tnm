@@ -43,11 +43,12 @@ const Navbar = () => {
 
 	return (
     <div>
-      <nav className="w-screen lg:flex flex-col  hidden top-0 z-50">
-        <div className="w-full bg-white flex gap-5 justify-between  shadow-md px-[1rem] xl:px-[5rem]">
+      <nav className="w-screen lg:flex flex-col  hidden top-0 z-50 py-3 backdrop-blur fixed bg-black">
+        <div className="w-full  flex gap-5 justify-between  shadow-md px-[1rem] xl:px-[5rem]">
           <div className="h-[4.7rem] flex justify-center items-center">
-            <Link to="/" className="w-full h-full flex items-center">
-              <img src={Logo} className="h-4/5 " alt="logo" />
+            <Link to="/" className="w-full h-full flex items-center text-white text-lg font-medium">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTMA2vjPal73v3kL_lKJAI1WRhMUd4z45-YKjppOfOqi6oZlGBk9EcjEXc1J4WdRDwGW4&usqp=CAU" className="h-4/5 " alt="logo" />
+              <span>Rocketeers</span>
             </Link>
           </div>
           <SearchBar />
@@ -55,7 +56,7 @@ const Navbar = () => {
             <div className="flex gap-1 xl:gap-[1.5rem] items-center ">
               {/* Need to Add the Links */}
               <div className="flex gap-2 xl:gap-5 items-center">
-                <a
+                {/* <a
                   href="tel:+919773727759"
                   className="hover:scale-110 transition-transform duration-150"
                 >
@@ -69,7 +70,7 @@ const Navbar = () => {
                     duration-150"
                 >
                   <img src={whatsapp} alt="whatsapp" />
-                </a>
+                </a> */}
 
                 {!isAuthenticated ? (
                   <>
@@ -87,7 +88,7 @@ const Navbar = () => {
                 ) : (
                   <div className="flex items-center gap-2 xl:gap-4">
                     <FaUserCircle
-                      className="text-3xl text-teal-600 hover:cursor-pointer hover:scale-110 transition-all duration-500"
+                      className="text-3xl text-white hover:cursor-pointer hover:scale-110 transition-all duration-500"
                       onClick={() => {
                         navigate("/profile");
                       }}
@@ -104,7 +105,7 @@ const Navbar = () => {
                   </div>
                 )}
               </div>
-              <Link to="/cart" className="AddToCart w-20 h-8 relative">
+              {/* <Link to="/cart" className="AddToCart w-20 h-8 relative">
                 <div className="Cart left-[13px] top-0 absolute justify-start items-center inline-flex">
                   <div className="flex-col justify-center items-center inline-flex">
                     <img src={Cart} alt="cart" />
@@ -114,7 +115,7 @@ const Navbar = () => {
                 <div className="Number w-4 left-1 top-0 absolute bg-teal-500 rounded-full  text-xs justify-center items-center flex text-white">
                   {cartItems.length}
                 </div>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

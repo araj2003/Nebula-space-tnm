@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/impact');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,8 +20,9 @@
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
-  background: #FAFAFA;
+  font-family: 'Impact', sans-serif;
+  background: #121212;
+  font-color : white;
 }
 :root {
   --dark-green-color: #217c04;

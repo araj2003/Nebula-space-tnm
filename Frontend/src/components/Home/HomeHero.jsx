@@ -1,78 +1,60 @@
 import React from "react";
-import mid from "../../assets/images/hero-mid.webp";
-import midright from "../../assets/images/hero-miid-right.webp";
-import midleft from "../../assets/images/hero-mid-left.webp";
-import left from "../../assets/images/left.webp";
-import right from "../../assets/images/right.webp";
-import Hero from "../../assets/images/hero-tag.png";
 import { Link } from "react-router-dom";
-import { useSelector } from 'react-redux';
+import { useSelector } from "react-redux";
 const HomeHero = () => {
   const { isAuthenticated, loading } = useSelector((state) => state.user);
   return (
-    <div className="flex flex-col md:pt-7 gap-6 justify-center pb-[5%]  min-h-[50vh] lg:min-h-[calc(100vh-5rem)] w-[95%] sm:w-[90%] lg:w-[85%] mx-auto">
-      <div className="relative">
-        <div className="text-3xl sm:text-4xl text-center lg:hidden">
+    <div className="flex text-white flex-col md:pt-20 gap-7 justify-center pb-[5%] imagebg  min-h-[60vh]   lg:min-h-[calc(100vh-2rem)] w-[95%] sm:w-[90%] lg:w-[85%] mx-auto">
+      <div className="relative font-bold">
+        {/* <div className="text-3xl sm:text-4xl text-center lg:hidden">
           <p>
-            Dedicated to{" "}
-            <span className="text-teal-600 font-semibold">Pet Wellness:</span>
-          </p>
-          <p>Your Trusted Partner in </p>
-          <p className="text-teal-600 font-semibold"> Veterinary Excellence</p>
-        </div>
-        <div className="text-center hidden lg:block">
-          <div className="flex  lg:text-5xl justify-center">
-            "Dedicated to&nbsp;
-            <span className="text-teal-600 font-semibold"> Pet Wellness</span>:
-            Your Trusted
-          </div>
-          <div className="flex lg:text-5xl justify-center">
-            Partner in&nbsp;
-            <span className="text-teal-600 font-semibold">
-              Veterinary Excellence
+            Your Gateway to the Final Frontier
+            <span className=" text-transparent  font-semibold bg-clip-text bg-gradient-to-tr from-white to-teal-600">
+              Pet Wellness:
             </span>
-            ."
+          </p>
+        </div> */}
+        <div className="text-center hidden lg:block">
+          <div className="flex  flex-col lg:text-6xl gap-3 justify-center">
+            <span>Experience the Universe&nbsp;</span>
+            <span className=" font-semibold text-teal-600 txt">
+              {" "}
+              to the Final Frontier
+            </span>
           </div>
-          
         </div>
       </div>
-      <div className="flex items-center justify-center gap-2 lg:gap-4">
-        <img
-          src={left}
-          alt="left"
-          className="w-[17%] sm:w-[14%] hidden sm:block"
-        />
-        <img
-          src={midleft}
-          alt="mid"
-          className="w-[25%] sm:w-[14%]"
-        />
-        <img src={mid} alt="mid " className="w-[25%] sm:w-[14%]" />
-        <img
-          src={midright}
-          alt="mid"
-          className="w-[25%] sm:w-[14%]"
-        />
-        <img
-          src={right}
-          alt="right"
-          className="w-[17%] sm:w-[14%] hidden sm:block"
-        />
+      <div className="flex gap-5 mx-auto my-5">
+        <div className="flex flex-col items-center">
+          <div
+            id="text"
+            class=" uppercase bg-clip-text text-transparent bg-gradient-to-r from-purple-700 to-violet-800 text-5xl font-black"
+          >
+            5k+
+          </div>
+          <span className="font-semibold mt-2 text-xl">Bookings</span>
+        </div>
+        <div className="flex flex-col items-center">
+          <div class=" uppercase bg-clip-text text-transparent bg-gradient-to-r from-purple-700 to-violet-800 text-5xl font-black">
+            10k+
+          </div>
+          <span className="font-semibold mt-2 text-xl"> Customers</span>
+        </div>
       </div>
-      <div className="flex justify-center gap-2 text-sm md:text-lg lg:mt-4">
+      <div className="flex justify-center gap-2 text-sm md:text-lg lg:mt-4 mx-auto">
         {!loading && !isAuthenticated && (
           <Link
             to={"/register"}
-            className="text-teal-600 border z-10 bg-white border-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 font-medium rounded-md px-5 md:px-8 py-2.5  flex items-center uppercase"
+            className="text-teal-600 border z-10 bg-white border-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 font-medium rounded-md px-5 md:px-8 py-2.5  flex items-center hover:bg-teal-700 hover:text-white  "
           >
             Join Us
           </Link>
         )}
         <Link
           to={"/products"}
-          className="text-white bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 font-medium rounded-md px-3 md:px-6 py-2.5  flex items-center uppercase"
+          className="text-white bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 font-medium rounded-md px-3 md:px-6 py-2.5  flex items-center hover:bg-teal-700"
         >
-          Our Products
+          Browse Destinations
           <svg
             className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
             aria-hidden="true"
@@ -90,6 +72,25 @@ const HomeHero = () => {
           </svg>
         </Link>
       </div>
+
+      <style>
+        {`
+        
+        .imagebg {
+          background: url("https://images.unsplash.com/photo-1634176866089-b633f4aec882?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80");
+          background-size: cover; /* Set the size of the background image */
+          background-repeat: no-repeat;
+          background-position: top; /* Position the background image at the center */
+          width: 100%; /* Set your desired width */}
+
+          .txt{
+            text-stroke: 1.25px white;
+            // -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 1.25px white;
+            // -moz-text-fill-color: transparent;
+          }
+        `}
+      </style>
     </div>
   );
 };
