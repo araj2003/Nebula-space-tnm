@@ -24,7 +24,6 @@ const ProductCard = ({ product }) => {
         <div className="flex flex-col justify-between mt-2 md:mt-4 w-full">
           <h2 className="w-full  truncate  capitalize md:text-left text-center sm:text-lg  md:text-xl font-medium text-white">
             {product?.productTitle.toLowerCase()} &nbsp;
-            {product?.weight_of_the_commodity}
           </h2>
         </div>
         <div className="line-clamp-2 md:line-clamp-3 text-[0.95rem] text-gray-100 font-medium">
