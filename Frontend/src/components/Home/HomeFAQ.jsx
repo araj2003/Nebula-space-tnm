@@ -71,7 +71,7 @@ export default function HomeFAQ() {
               },
             }}
             key={index}
-            className="!shadow-none !text-white !bg-gray-900 !border-none"
+            className="!shadow-none !text-white !bg-gray-800 !border-none"
           >
             <AccordionSummary expandIcon={<MdExpandMore className="text-xl scale-x-125"/>}>
               <p className="font-medium">{`${index + 1}. ${

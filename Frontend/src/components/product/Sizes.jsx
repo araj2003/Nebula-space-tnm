@@ -18,7 +18,7 @@ const Sizes = ({ sizes, selectedSize, setSelectedSize }) => {
 	return (
 		<div className=' flex flex-col gap-[50px]'>
 			<div className='flex gap-2 md:gap-5 items-center'>
-				<h2 className='text-[22px] whitespace-nowrap'>Packages &nbsp; : </h2>
+				<h2 className='text-[22px] whitespace-nowrap'>Date &nbsp; : </h2>
 				<ul className=' gap-6 flex text-sm flex-wrap'>
 					{nonEmptySizes.map((size, index) => (
 						<li key={index}>

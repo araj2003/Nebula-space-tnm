@@ -78,7 +78,7 @@ const ProductDetails = () => {
       try {
         dispatch(
           addToCart(product._id, 1, size, color, otherVariant, () => {
-            toast.success(`${product.name} added to Cart`);
+            toast.success(`${product.name} added to Blog`);
             setLoadingAddToCart(false); // Reset loading flag
           })
         );

@@ -66,12 +66,12 @@ const Cart = () => {
 					<MdRemoveShoppingCart className='text-white text-5xl md:text-[100px]' />
 					<h2 className='text-gray-400 font-semibold text-lg md:text-2xl'>
 						{" "}
-						No Products in your Cart
+						No Bookings in your Bag
 					</h2>
 					<Link
 						to='/products'
 						className='bg-teal-600 hover:bg-white border-2 border-teal-600 hover:text-teal-700 transition-all duration-150 text-white px-3 md:px-6 rounded-md md:text-lg py-1.5 mt-5'>
-						View All Products
+						View All Destinations
 					</Link>
 				</div>
 			) : (
@@ -108,7 +108,7 @@ const Cart = () => {
 							<div
 								className='bg-teal-600 text-white text-center my-5 py-1.5 md:py-3 flex items-center justify-center gap-3 transition-all hover:bg-white border-2 border-teal-600 hover:text-teal-700 hover:cursor-pointer group'
 								onClick={checkOutHandler}>
-								<button>Proceed to Checkout</button>
+								<button>Proceed to Bookings</button>
 								<BsArrowRight className='hidden lg:block transition-all duration-300 px-2group-hover:translate-x-2' />
 							</div>
 						</div>
