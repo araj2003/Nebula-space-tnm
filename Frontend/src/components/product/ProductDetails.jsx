@@ -48,31 +48,31 @@ const ProductDetails = () => {
       return;
     }
 
-    if (
-      isAuthenticated &&
-      product.available_size.length !== 0 &&
-      size === null
-    ) {
-      toast.error("Please Select Size");
-      setLoadingAddToCart(false); // Reset loading flag
-      return;
-    }
+    // if (
+    //   isAuthenticated &&
+    //   product.available_size.length !== 0 &&
+    //   size === null
+    // ) {
+    //   toast.error("Please Select Size");
+    //   setLoadingAddToCart(false); // Reset loading flag
+    //   return;
+    // }
 
-    if (isAuthenticated && product.color.length !== 0 && color === null) {
-      toast.error("Please Select Color");
-      setLoadingAddToCart(false); // Reset loading flag
-      return;
-    }
+    // if (isAuthenticated && product.color.length !== 0 && color === null) {
+    //   toast.error("Please Select Color");
+    //   setLoadingAddToCart(false); // Reset loading flag
+    //   return;
+    // }
 
-    if (
-      isAuthenticated &&
-      product.othervarients.length !== 0 &&
-      otherVariant === null
-    ) {
-      toast.error("Please Select Variant");
-      setLoadingAddToCart(false); // Reset loading flag
-      return;
-    }
+    // if (
+    //   isAuthenticated &&
+    //   product.othervarients.length !== 0 &&
+    //   otherVariant === null
+    // ) {
+    //   toast.error("Please Select Variant");
+    //   setLoadingAddToCart(false); // Reset loading flag
+    //   return;
+    // }
 
     if (isAuthenticated && product && product._id) {
       try {

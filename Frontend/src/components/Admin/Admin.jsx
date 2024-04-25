@@ -88,7 +88,7 @@ const Admin = () => {
 				} sm:translate-x-0`}
 				aria-label="Sidebar"
 			>
-				<div className="h-full px-1 lg:px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
+				<div className="h-full px-1 lg:px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800 pt-28">
 					<ul className="space-y-2 font-medium">
 						{ButtonName.map((name, index) => {
 							return (
@@ -103,7 +103,7 @@ const Admin = () => {
 					</ul>
 				</div>
 			</aside>
-			<div className="ml-0 sm:ml-44 md:ml-56 min-h-screen py-24 lg:py-2 pr-2">
+			<div className="ml-0 sm:ml-44 md:ml-56 min-h-screen py-28 lg:py-2 pr-2">
 				{page === 0 && <RFQ />}
 				{page === 1 && <Orders />}
 				{page === 2 && <Users />}
