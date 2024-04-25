@@ -25,6 +25,7 @@ const allowedOrigins = [
 	"https://vetmedman.onrender.com",
 	"https://vetmedman-webapp-prod.azurewebsites.net",
 	"https://vetmedman-webapp.azurewebsites.net",
+	"https://nebula-space-tnm-7iey.onrender.com"
 ];
 
 const corsOptions = {

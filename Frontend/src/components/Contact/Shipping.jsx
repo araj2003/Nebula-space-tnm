@@ -36,7 +36,7 @@ const Shipping = ({ shippingDetails, onShippingChange }) => {
                   name="fname"
                   value={address.fname}
                   onChange={onShippingChange}
-                  className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                  className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                   placeholder="John"
                   required
                 />
@@ -54,7 +54,7 @@ const Shipping = ({ shippingDetails, onShippingChange }) => {
                   name="lname"
                   value={address.lname}
                   onChange={onShippingChange}
-                  className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                  className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                   placeholder="Doe"
                   required
                 />
@@ -72,7 +72,7 @@ const Shipping = ({ shippingDetails, onShippingChange }) => {
                   name="organization"
                   value={address.organization}
                   onChange={onShippingChange}
-                  className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                  className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                   placeholder="ABC Company"
                   required
                 />
@@ -93,7 +93,7 @@ const Shipping = ({ shippingDetails, onShippingChange }) => {
                   name="officialEmailId"
                   value={address.officialEmailId}
                   onChange={onShippingChange}
-                  className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                  className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                   placeholder="name@company.com"
                   required
                 />
@@ -111,7 +111,7 @@ const Shipping = ({ shippingDetails, onShippingChange }) => {
                   name="phoneNo"
                   value={address.phoneNo}
                   onChange={onShippingChange}
-                  className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                  className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                   placeholder="1234567890"
                   required
                 />
@@ -129,7 +129,7 @@ const Shipping = ({ shippingDetails, onShippingChange }) => {
                   name="pinCode"
                   value={address.pinCode}
                   onChange={onShippingChange}
-                  className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                  className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                   placeholder="123456"
                   required
                 />
@@ -150,7 +150,7 @@ const Shipping = ({ shippingDetails, onShippingChange }) => {
                   name="country"
                   value={address.country}
                   onChange={onShippingChange}
-                  className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                  className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                   placeholder="United States"
                   required
                 />
@@ -168,7 +168,7 @@ const Shipping = ({ shippingDetails, onShippingChange }) => {
                   name="city"
                   value={address.city}
                   onChange={onShippingChange}
-                  className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                  className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                   placeholder="New York"
                   required
                 />
@@ -186,7 +186,7 @@ const Shipping = ({ shippingDetails, onShippingChange }) => {
                   name="state"
                   value={address.state}
                   onChange={onShippingChange}
-                  className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                  className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                   placeholder="New York"
                   required
                 />

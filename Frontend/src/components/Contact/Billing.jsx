@@ -38,7 +38,7 @@ const Billing = ({
                 name="fname"
                 value={billingDetails.fname}
                 onChange={onBillingChange}
-                className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                 placeholder="John"
                 required
               />
@@ -56,7 +56,7 @@ const Billing = ({
                 name="lname"
                 value={billingDetails.lname}
                 onChange={onBillingChange}
-                className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                 placeholder="Doe"
                 required
               />
@@ -74,7 +74,7 @@ const Billing = ({
                 name="organization"
                 value={billingDetails.organization}
                 onChange={onBillingChange}
-                className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                 placeholder="ABC Company"
                 required
               />
@@ -95,7 +95,7 @@ const Billing = ({
                 name="officialEmailId"
                 value={billingDetails.officialEmailId}
                 onChange={onBillingChange}
-                className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                 placeholder="name@company.com"
                 required
               />
@@ -113,7 +113,7 @@ const Billing = ({
                 name="phoneNo"
                 value={billingDetails.phoneNo}
                 onChange={onBillingChange}
-                className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                 placeholder="1234567890"
                 required
               />
@@ -131,7 +131,7 @@ const Billing = ({
                 name="pinCode"
                 value={billingDetails.pinCode}
                 onChange={onBillingChange}
-                className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                 placeholder="123456"
                 required
               />
@@ -152,7 +152,7 @@ const Billing = ({
                 name="country"
                 value={billingDetails.country}
                 onChange={onBillingChange}
-                className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                 placeholder="United States"
                 required
               />
@@ -170,7 +170,7 @@ const Billing = ({
                 name="city"
                 value={billingDetails.city}
                 onChange={onBillingChange}
-                className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                 placeholder="New York"
                 required
               />
@@ -188,7 +188,7 @@ const Billing = ({
                 name="state"
                 value={billingDetails.state}
                 onChange={onBillingChange}
-                className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg  block w-full p-2"
+                className="bg-gray-50 border border-gray-300 outline-none text-gray-800 text-sm rounded-lg  block w-full p-2"
                 placeholder="New York"
                 required
               />
