@@ -1,4 +1,4 @@
-# Vetmedman Frontend
+# Space Wonders Frontend
 
 # ReactJS Frontend Documentation
 

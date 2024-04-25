@@ -43,7 +43,7 @@ const Catalog = () => {
         Request a Free Catalogue
       </h2>
       <p className="text-gray-500 w-5/6 my-2">
-        Kindly fill the form given below to get FREE copy of VetMedMan Catalog
+        Kindly fill the form given below to get FREE copy of Space Wonders Catalog
       </p>
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <div className="flex gap-4">

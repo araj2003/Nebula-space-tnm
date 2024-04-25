@@ -20,10 +20,10 @@ const Error = () => {
             <p>
               Contact us via email at{" "}
               <a
-                href="mailto:support@vetmedman.com"
+                href="mailto:support@Space Wonders.com"
                 className="text-teal-700 italic hover:underline"
               >
-                support@vetmedman.com
+                support@Space Wonders.com
               </a>
               , and our team will respond to your inquiries within 72 hours. For
               immediate assistance and expedited services, you can also reach us

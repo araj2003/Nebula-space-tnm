@@ -7,13 +7,13 @@ const About = () => {
         <h2 className="text-xl md:text-3xl font-bold w-full my-4 underline">About Us</h2>
         <div className="flex flex-col gap-5 ">
           <p>
-            Welcome to Vetmedman, your trusted partner in providing top-quality
+            Welcome to Space Wonders, your trusted partner in providing top-quality
             medical equipment and supplies for veterinary doctors and hospitals.
             We are passionate about delivering excellence and ensuring customer
             satisfaction in all aspects of our business.
           </p>
           <p>
-            At Vetmedman, we understand the crucial role that medical supplies
+            At Space Wonders, we understand the crucial role that medical supplies
             plays in veterinary practices. That's why we are committed to
             sourcing and offering products that meet the highest standards of
             quality, reliability, and performance. From essential supplies like

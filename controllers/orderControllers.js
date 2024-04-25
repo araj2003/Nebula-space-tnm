@@ -235,7 +235,7 @@ exports.newOrder = catchAsyncErrors(async (req, res, next) => {
                         <tr>
                             <td align="center" style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; padding-top: 25px;">
                                 <h2 style="font-size: 24px; font-weight: 800; line-height: 30px; color: #ffffff; margin: 0;">
-                                    VETMEDMAN 
+                                    Space Wonders 
                                 </h2>
                             </td>
                         </tr>

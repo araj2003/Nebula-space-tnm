@@ -22,7 +22,7 @@ const TermsandPolicy = () => {
               </span>
               <p className="text-gray-900">
                 By accepting and complying with the following Terms, you are
-                granted restricted access by VetMedMan to access and utilize the
+                granted restricted access by Space Wonders to access and utilize the
                 Site strictly for personal use or authorized business purposes.
                 It is important to note that this license does not include the
                 right to download, reproduce, modify, or create links to any
@@ -32,7 +32,7 @@ const TermsandPolicy = () => {
                 pages.
               </p>
               <p className="text-gray-900">
-                Unless expressly stated otherwise, VetMedMan either owns or
+                Unless expressly stated otherwise, Space Wonders either owns or
                 possesses the necessary licensing rights for all Site Content,
                 allowing for its use in accordance with these Terms. The Site
                 Content is protected by applicable laws, and any unauthorized
@@ -51,14 +51,14 @@ const TermsandPolicy = () => {
               <p className="text-gray-900">
                 Any violation of these Terms, including unauthorized use of the
                 Site Content, will result in the immediate termination of the
-                license granted by VetMedMan for accessing and using the Site.
+                license granted by Space Wonders for accessing and using the Site.
                 Moreover, such violations may subject you to legal action. If
                 you have the intention of utilizing the Site or its Content
                 beyond the limitations of this license, it is imperative that
                 you contact us directly to request permission.
               </p>
               <p className="text-gray-900">
-                Please be aware that VetMedMan retains the right to modify or
+                Please be aware that Space Wonders retains the right to modify or
                 revoke this limited license at any time, without prior notice,
                 should there be a violation of these Terms or for any other
                 legitimate reason as deemed necessary.
@@ -69,7 +69,7 @@ const TermsandPolicy = () => {
                 Veterinary medical legal advice not provided
               </span>
               <p className="text-gray-900">
-                The website, VetMedMan, serves as a platform that offers
+                The website, Space Wonders, serves as a platform that offers
                 information and educational resources pertaining to veterinary
                 matters. It is important to note that the content provided on
                 this site is intended solely for informational and educational
@@ -80,7 +80,7 @@ const TermsandPolicy = () => {
                 for professional guidance provided by a licensed veterinarian.
               </p>
               <p className="text-gray-900">
-                It is essential to acknowledge that VetMedMan cannot be held
+                It is essential to acknowledge that Space Wonders cannot be held
                 liable for any adverse outcomes, such as injury, illness, or
                 even the unfortunate demise of your pet, including the
                 associated costs of veterinary care. Such outcomes may arise
@@ -100,7 +100,7 @@ const TermsandPolicy = () => {
               <p className="text-gray-900">
                 By accessing and utilizing the information presented on this
                 site, you affirm your understanding and acceptance of the
-                aforementioned disclaimers and acknowledge that VetMedMan is not
+                aforementioned disclaimers and acknowledge that Space Wonders is not
                 responsible for the consequences resulting from any actions
                 taken based on the information provided herein.
               </p>
@@ -110,7 +110,7 @@ const TermsandPolicy = () => {
                 Permitted individuals
               </span>
               <p className="text-gray-900">
-                Access and usage of this Site, VetMedMan, is restricted to
+                Access and usage of this Site, Space Wonders, is restricted to
                 individuals who are legally recognized as adults in the
                 jurisdiction in which they reside. It is important to note that
                 individuals under the age of 18 are strictly prohibited from
@@ -128,7 +128,7 @@ const TermsandPolicy = () => {
                 users
               </p>
               <p className="text-gray-900">
-                VetMedMan reserves the right to take appropriate action,
+                Space Wonders reserves the right to take appropriate action,
                 including but not limited to suspending or terminating access,
                 in the event of a violation of these terms and conditions
                 regarding user eligibility.
@@ -138,7 +138,7 @@ const TermsandPolicy = () => {
                 that you meet the minimum age requirement or have obtained the
                 necessary consent from your parent or guardian, thereby
                 complying with the authorized user policy set forth by
-                VetMedMan.
+                Space Wonders.
               </p>
             </div>
             <div className="flex flex-col gap-2 ">
@@ -150,7 +150,7 @@ const TermsandPolicy = () => {
                 contribute your own content, such as feedback, comments,
                 photographs, personal stories, and similar materials ("User
                 Content"). It is important to understand that any form of
-                communication with VetMedMan through personal accounts or other
+                communication with Space Wonders through personal accounts or other
                 means, including attachments to those communications or other
                 submissions (such as documents, photographs, and videos), will
                 be considered User Content.
@@ -165,7 +165,7 @@ const TermsandPolicy = () => {
                 which is incorporated into these Terms by reference.
               </p>
               <p className="text-gray-700">
-                By submitting User Content to the Site, you grant VetMedMan a
+                By submitting User Content to the Site, you grant Space Wonders a
                 perpetual, non-exclusive license to utilize, reproduce,
                 distribute, display, modify, create derivative works of, and
                 sublicense the User Content in any manner, including reposting
@@ -173,7 +173,7 @@ const TermsandPolicy = () => {
                 username, and profile information (if applicable).
               </p>
               <p className="text-gray-700">
-                It is important to note that VetMedMan reserves the right,
+                It is important to note that Space Wonders reserves the right,
                 though not the obligation, to review, refuse to display, or
                 remove any User Content for any reason, at its sole discretion.
                 This ensures that the Site maintains its intended purpose and

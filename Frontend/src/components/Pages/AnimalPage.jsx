@@ -66,7 +66,7 @@ const AnimalPage = () => {
         </p>
         <article className="flex flex-col gap-8 mt-2 md:text-[18px]">
           <p>
-            Welcome to Vetmedman, we proudly offer a comprehensive range of
+            Welcome to Space Wonders, we proudly offer a comprehensive range of
             products to cater to the diverse needs of various animals. From
             furry pets to farm animals and beyond, we have everything you need
             to provide exceptional care for your beloved companions.

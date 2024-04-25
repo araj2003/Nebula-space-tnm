@@ -84,4 +84,4 @@ To make someone admin or editor, go to the mongoDB and change the role to admin 
 
 ### Deployment
 
-To deploy the latest changes simply push to the github repo vetmedmanproduction/VetmedmanDeployment, if there are any changes in Frontend, run `npm run build` first before pushing to the repo.
+To deploy the latest changes simply push to the github repo Space Wondersproduction/Space WondersDeployment, if there are any changes in Frontend, run `npm run build` first before pushing to the repo.

@@ -73,10 +73,10 @@ const Footer = () => {
                 </Link>
                 <div className="flex items-center gap-1">
                   <a
-                    href="mailto:support@vetmedman.com"
+                    href="mailto:support@Space Wonders.com"
                     className="hover:underline hover:text-teal-400 hover:cursor-pointer transition-all duration-150"
                   >
-                    support@vetmedman
+                    support@Space Wonders
                   </a>
                   <img src={media} alt="mail" className="h-4" />
                 </div>
@@ -99,7 +99,7 @@ const Footer = () => {
           <div className="w-full  h-[1px]  opacity-40 mt-9 bg-gray-300"></div>
           <div className="text-sm md:text-base flex flex-col md:flex-row items-center py-2 justify-between ">
             <div className="flex mt-2 text-gray-400">
-              &#169;2023 Vetmedman. All Rights Reserved
+              &#169;2023 Space Wonders. All Rights Reserved
             </div>
             <div className="flex gap-2 md:gap-4 text-xs lg:text-base mt-2 ">
               <Link

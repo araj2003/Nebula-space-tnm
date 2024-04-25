@@ -48,7 +48,7 @@ const Home = () => {
   return (
     <section id="home" className="pt-24 lg:pt-0 flex flex-col gap-8 pb-10">
       <ScrollRestoration />
-      <MetaData title="VetMedMan" />
+      <MetaData title="Space Wonders" />
       <HomeHero />
       <FeaturedProducts featured={featured} />
       {/* <Ads /> */}

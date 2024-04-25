@@ -6,7 +6,7 @@ const ShippingReturn = () => {
       <div className="flex flex-col gap-4 mb-5">
         <h2 className="text-xl my-3 md:text-3xl font-bold w-full underline">Return Policy</h2>
         <p>
-          At VetMedMan, we value your satisfaction and strive to provide the best possible experience with our products. If you're not completely satisfied with your purchase, we offer a straightforward and customer-friendly return policy.
+          At Space Wonders, we value your satisfaction and strive to provide the best possible experience with our products. If you're not completely satisfied with your purchase, we offer a straightforward and customer-friendly return policy.
         </p>
 
         <h3 className="text-lg md:text-xl font-bold ">Eligibility and Conditions:</h3>
@@ -40,7 +40,7 @@ const ShippingReturn = () => {
 
         <h2 className="text-xl my-3 md:text-3xl font-bold w-full mt-6 underline">Shipping Policy</h2>
         <p>
-          VetMedMan is committed to ensuring a seamless and efficient shipping experience for our valued customers. We strive to get your products to you in a timely manner while maintaining the highest level of care and security.
+          Space Wonders is committed to ensuring a seamless and efficient shipping experience for our valued customers. We strive to get your products to you in a timely manner while maintaining the highest level of care and security.
         </p>
 
         <h3 className="text-lg md:text-xl font-bold ">Shipping Options:</h3>
@@ -79,7 +79,7 @@ const ShippingReturn = () => {
         </p>
 
         <p>
-          Should you have any questions or require assistance, our dedicated customer support team is ready to assist you. Thank you for choosing VetMedMan for your animal health and wellness needs. Your satisfaction is our priority, and we're here to provide you with a smooth and reliable shopping experience.
+          Should you have any questions or require assistance, our dedicated customer support team is ready to assist you. Thank you for choosing Space Wonders for your animal health and wellness needs. Your satisfaction is our priority, and we're here to provide you with a smooth and reliable shopping experience.
         </p>
       </div>
     </div>

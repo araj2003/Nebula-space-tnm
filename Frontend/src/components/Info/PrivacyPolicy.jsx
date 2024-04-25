@@ -5,8 +5,8 @@ const PrivacyPolicy = () => {
       <div className="leading-relaxed">
         <p>
           Welcome to our website,
-          <a href="www.vetmedman.com" className="text-blue-500 hover:underline">
-            www.vetmedman.com
+          <a href="www.Space Wonders.com" className="text-blue-500 hover:underline">
+            www.Space Wonders.com
           </a>
           . By accessing and using this site, you agree to comply with the
           following terms and conditions. If you do not agree with these terms,
@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
 
         <p>
           This Privacy Policy is designed to provide you with comprehensive
-          information regarding how VetMedMan ("we" or "us") collects, uses, and
+          information regarding how Space Wonders ("we" or "us") collects, uses, and
           safeguards your information on our Internet websites, applications,
           and other interactive services provided on various devices that
           connect to the Internet (referred to as "Sites" or "Site"). We also
@@ -43,7 +43,7 @@ const PrivacyPolicy = () => {
         </h2>
 
         <p>
-          At VetMedMan, we engage in the collection of information through
+          At Space Wonders, we engage in the collection of information through
           various means:
         </p>
 
@@ -93,7 +93,7 @@ const PrivacyPolicy = () => {
         </h2>
 
         <p>
-          At VetMedMan, we recognize the importance of safeguarding your
+          At Space Wonders, we recognize the importance of safeguarding your
           privacy. We have implemented technical security measures to protect
           your personal data. However, please note that no transmission over the
           Internet can be guaranteed to be completely secure. While we strive to
@@ -108,7 +108,7 @@ const PrivacyPolicy = () => {
         <p>
           Please be aware that when you visit linked websites, the operators of
           those sites may collect your personal data, including information
-          obtained through the use of cookies. VetMedMan cannot be held
+          obtained through the use of cookies. Space Wonders cannot be held
           responsible for how these third parties collect, use, or disclose your
           personal data. Therefore, we recommend reviewing their privacy
           policies before providing them with any personal information.
@@ -119,7 +119,7 @@ const PrivacyPolicy = () => {
         </h2>
 
         <p>
-          VetMedMan reserves the right to modify this Privacy Policy at any
+          Space Wonders reserves the right to modify this Privacy Policy at any
           time. Any changes will be posted on this Site, and we advise you to
           review this page periodically for updates.
         </p>
@@ -138,7 +138,7 @@ const PrivacyPolicy = () => {
         <p>
           If you have any questions, require access to your personal
           information, or wish to update your information, please contact
-          VetMedMan. In case you believe that VetMedMan has failed to adhere to
+          Space Wonders. In case you believe that Space Wonders has failed to adhere to
           this Privacy Policy, please reach out to us immediately using the
           contact details provided below.
         </p>
@@ -151,10 +151,10 @@ const PrivacyPolicy = () => {
           third parties for direct marketing purposes. To exercise this right or
           seek further clarification, please send an email to{" "}
           <a
-            href="mailto:privacy@vetmedman.in"
+            href="mailto:privacy@Space Wonders.in"
             className="text-blue-500 hover:underline"
           >
-            privacy@vetmedman.in
+            privacy@Space Wonders.in
           </a>
           .
         </p>

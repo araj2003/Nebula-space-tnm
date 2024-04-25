@@ -76,7 +76,7 @@ const PharmaPage = () => {
             Welcome to our extensive range of products for the medical care of
             pets and animals. We take pride in offering a comprehensive
             selection designed to address a wide range of healthcare needs.
-            VetMedMan is your reliable source for a wide range of medical care
+            Space Wonders is your reliable source for a wide range of medical care
             products designed specifically for the well-being of your beloved
             pets.
           </p>
@@ -84,7 +84,7 @@ const PharmaPage = () => {
             {" "}
             We understand that providing exceptional care for your pet
             companions is a top priority, and we are here to support you with
-            our carefully curated selection of veterinary products.At VetMedMan,
+            our carefully curated selection of veterinary products.At Space Wonders,
             we strive to offer only the highest quality medical care products.
             Our product range encompasses various categories to address the
             diverse healthcare needs of pets:
