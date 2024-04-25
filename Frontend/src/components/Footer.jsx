@@ -32,9 +32,6 @@ const Footer = () => {
         <div className="px-6 md:px-14">
           <div className="flex flex-col gap-5 md:flex-row justify-between">
             <div className="flex md:flex-col  w-full md:w-fit  justify-between md:justify-start gap-4 items-center">
-              <div className="w-24 md:w-32">
-                <img src={logo} alt="logo" className="block " />
-              </div>
               <div className="footer-icons flex gap-2 justify-between items-center scale-125 z-20 ">
               <FaInstagram />
               <FaTwitter />
